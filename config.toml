@@ -7,7 +7,7 @@ theme = "LoveIt"
 title = "My New Hugo Site"
 
 # push to the right directory
-publishdir = "docs"
+publishDir = "docs"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
