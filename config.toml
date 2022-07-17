@@ -6,6 +6,9 @@ theme = "LoveIt"
 # website title
 title = "My New Hugo Site"
 
+# push to the right directory
+publishdir = "docs"
+
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
