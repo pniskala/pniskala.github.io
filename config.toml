@@ -7,7 +7,7 @@ theme = "LoveIt"
 title = "My New Hugo Site"
 
 # push to the right directory
-publishDir = "docs"
+publishDir = "public"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -56,3 +56,8 @@ languageName = "English"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
+# Social
+[params.social]
+  Twitter = "@Paavi"
+  LinkedIn = "pniskala"
