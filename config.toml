@@ -4,7 +4,7 @@ baseURL = "https://pniskala.github.io/"
 theme = "LoveIt"
 
 # website title
-title = "Paavo Niskala's homepage"
+title = "Paavo Niskala"
 
 # push to the right directory
 publishDir = "public"
@@ -23,7 +23,7 @@ languageName = "English"
 # Menu config
 [menu]
   [[menu.main]]
-    weight = 1
+    # weight = 1
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -34,7 +34,7 @@ languageName = "English"
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
-    weight = 2
+    # weight = 2
     identifier = "tags"
     pre = ""
     post = ""
@@ -42,7 +42,7 @@ languageName = "English"
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 3
+    # weight = 3
     identifier = "categories"
     pre = ""
     post = ""
@@ -57,8 +57,81 @@ languageName = "English"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
 
+
+# Header config
+  # 页面头部导航栏配置
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    # 桌面端导航栏模式 ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    # 移动端导航栏模式 ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # Header title config
+    # 页面头部导航栏标题配置
+    [params.header.title]
+      # URL of the LOGO
+      # LOGO 的 URL
+      logo = ""
+      # title name
+      # 标题名称
+      name = "Paavo Niskala"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+      post = ""
+      # whether to use typeit animation for title name
+      # 是否为标题显示打字机动画
+      typeit = false
+
+
+  # Home page config
+  # 主页信息设置
+  [params.home]
+    # amount of RSS pages
+    # RSS 文章数目
+    rss = 10
+    # Home page profile
+    # 主页个人信息
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      # Gravatar 邮箱，用于优先在主页显示的头像
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      # 主页显示头像的 URL
+      avatarURL = "images/paavo-hattu.png"
+      # title shown in home page (HTML format is supported)
+      # 主页显示的网站标题 (支持 HTML 格式)
+      title = ""
+      # subtitle shown in home page (HTML format is supported)
+      # 主页显示的网站副标题 (允许 HTML 格式)
+      subtitle = "Hi, I am Paavo."
+      # whether to use typeit animation for subtitle
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # whether to show social links
+      # 是否显示社交账号
+      social = true
+      # disclaimer (HTML format is supported)
+      # 免责声明 (支持 HTML 格式)
+      disclaimer = ""
+    # Home page posts
+    # 主页文章列表
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      # 主页每页显示文章数量
+      paginate = 6
+  # Social config in home page
+  # 主页的社交信息设置
+
 # Social
 [params.social]
   github = "pniskala"
   Twitter = "@Paavi"
   LinkedIn = "pniskala"
+
+  
