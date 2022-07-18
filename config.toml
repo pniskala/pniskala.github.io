@@ -1,7 +1,7 @@
 baseURL = "https://pniskala.github.io/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "hugo-PaperMod"
 
 # website title
 title = "Paavo Niskala"
@@ -9,129 +9,132 @@ title = "Paavo Niskala"
 # push to the right directory
 publishDir = "public"
 
-# language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
 
-# Author config
-[author]
-  name = "Paavo Niskala"
-  # email = ""
-  # link = ""
+[minify]
+disableXML = true
+minifyOutput = true
 
-# Menu config
-[menu]
-  [[menu.main]]
-    # weight = 1
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
+[params]
+env = "production"
+title = "Paavo Niskala"
+description = "Paavo Niskala"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Paavo Niskala"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+#   [params.assets]
+#   favicon = "<link / abs url>"
+#   favicon16x16 = "<link / abs url>"
+#   favicon32x32 = "<link / abs url>"
+#   apple_touch_icon = "<link / abs url>"
+#   safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "Hi, I am Paavo Niskala."
+  subtitle = "I am a Jack of all trades, master of some."
+  imageUrl = "images/paavo-hattu.png"
+  imageWidth = 160
+  imageHeight = 160
+  imageTitle = "That's Paavo."
+
+    [[params.profileMode.buttons]]
     name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    # weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    # weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    url = "posts/"
 
-# Markup related configuration in Hugo
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
+    # [[params.profileMode.buttons]]
+    # name = "Tags"
+    # url = "tags"
 
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to my blog"
 
-# Header config
-  # 页面头部导航栏配置
-  [params.header]
-    # desktop header mode ["fixed", "normal", "auto"]
-    # 桌面端导航栏模式 ["fixed", "normal", "auto"]
-    desktopMode = "fixed"
-    # mobile header mode ["fixed", "normal", "auto"]
-    # 移动端导航栏模式 ["fixed", "normal", "auto"]
-    mobileMode = "auto"
-    # Header title config
-    # 页面头部导航栏标题配置
-    [params.header.title]
-      # URL of the LOGO
-      # LOGO 的 URL
-      logo = ""
-      # title name
-      # 标题名称
-      name = "Paavo Niskala"
-      # you can add extra information before the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
-      # you can add extra information after the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-      post = ""
-      # whether to use typeit animation for title name
-      # 是否为标题显示打字机动画
-      typeit = false
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/pniskala/"
 
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/Paavi"
 
-  # Home page config
-  # 主页信息设置
-  [params.home]
-    # amount of RSS pages
-    # RSS 文章数目
-    rss = 10
-    # Home page profile
-    # 主页个人信息
-    [params.home.profile]
-      enable = true
-      # Gravatar Email for preferred avatar in home page
-      # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
-      # URL of avatar shown in home page
-      # 主页显示头像的 URL
-      avatarURL = "images/paavo-hattu.png"
-      # title shown in home page (HTML format is supported)
-      # 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
-      # subtitle shown in home page (HTML format is supported)
-      # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "Hi, I am Paavo."
-      # whether to use typeit animation for subtitle
-      # 是否为副标题显示打字机动画
-      typeit = true
-      # whether to show social links
-      # 是否显示社交账号
-      social = true
-      # disclaimer (HTML format is supported)
-      # 免责声明 (支持 HTML 格式)
-      disclaimer = ""
-    # Home page posts
-    # 主页文章列表
-    [params.home.posts]
-      enable = true
-      # special amount of posts in each home posts page
-      # 主页每页显示文章数量
-      paginate = 6
-  # Social config in home page
-  # 主页的社交信息设置
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/"
 
-# Social
-[params.social]
-  github = "pniskala"
-  Twitter = "@Paavi"
-  LinkedIn = "pniskala"
+  [params.cover]
+  hidden = false
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 10
+
+# [[menu.main]]
+# identifier = "categories"
+# name = "categories"
+# url = "/categories/"
+# weight = 10
+
+# [[menu.main]]
+# identifier = "tags"
+# name = "tags"
+# url = "/tags/"
+# weight = 20
+
+# [[menu.main]]
+# identifier = "example"
+# name = "example.org"
+# url = "https://example.org"
+# weight = 30
+
+[markup.highlight]
+noClasses = false
 
   
