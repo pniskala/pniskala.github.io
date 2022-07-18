@@ -1,25 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Paavo Niskala</title>
-    <link>https://pniskala.github.io/</link>
-    <description>Recent content on Paavo Niskala</description>
-    <image>
-      <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Jul 2022 21:36:48 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello world</title>
-      <link>https://pniskala.github.io/posts/first_post/</link>
-      <pubDate>Sun, 17 Jul 2022 21:36:48 +0300</pubDate>
-      
-      <guid>https://pniskala.github.io/posts/first_post/</guid>
-      <description>Hello, is it me you are looking for?
-Maybe not, but you are still here.
-Pardon our dust, this is still under construction.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Paavo Niskala&#39;s homepage</title>
+        <link>https://pniskala.github.io/</link>
+        <description>This is it.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language>
+            <atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
 </rss>
