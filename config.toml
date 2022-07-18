@@ -7,7 +7,7 @@ theme = "hugo-PaperMod"
 title = "Paavo Niskala"
 
 # push to the right directory
-publishDir = "public"
+publishDir = "docs"
 
 enableRobotsTXT = true
 buildDrafts = false
