@@ -110,11 +110,11 @@ tocopen = false
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
 
-[[menu.main]]
-identifier = "posts"
-name = "posts"
-url = "/posts/"
-weight = 10
+# [[menu.main]]
+# identifier = "posts"
+# name = "posts"
+# url = "/posts/"
+# weight = 10
 
 # [[menu.main]]
 # identifier = "categories"
