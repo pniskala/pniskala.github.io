@@ -61,7 +61,7 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Hi, I am Paavo Niskala."
-  subtitle = "I am a Jack of all trades, master of some."
+  subtitle = "Jack of all trades, master of some."
   imageUrl = "images/paavo-hattu.png"
   imageWidth = 160
   imageHeight = 160
@@ -97,7 +97,7 @@ tocopen = false
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/pniskala/pniskala.github.io/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
