@@ -76,7 +76,7 @@ After pushing your built website to the remote, it should be deployed and be acc
 
 ### Option 2: Building and deploying with GitHub Actions
 
-It turns out GitHub Pages supports natively Jekyll for building the website so I created some extra work for myself by choosing Hugo. Luckily it's not that difficult to achieve the same with other tools. 
+It turns out [GitHub Pages supports natively Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) for building the website so I created some extra work for myself by choosing Hugo. Luckily it's not that difficult to achieve the same with other tools.
 
 Apparently GitHub Pages always uses GitHub Actions to deploy the website but you can use a custom workflow for building it as well. This is exactly what we need to do.
 
