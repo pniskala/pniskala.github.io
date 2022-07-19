@@ -21,16 +21,5 @@ Somewhat irrelevant background information I have tried a variety of blogging pl
 Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
     </item>
     
-    <item>
-      <title>Hello world</title>
-      <link>https://pniskala.github.io/posts/first_post/</link>
-      <pubDate>Sun, 17 Jul 2022 21:36:48 +0300</pubDate>
-      
-      <guid>https://pniskala.github.io/posts/first_post/</guid>
-      <description>Hello, is it me you are looking for?
-Maybe not, but you are still here.
-Pardon our dust, this is still under construction.</description>
-    </item>
-    
   </channel>
 </rss>
