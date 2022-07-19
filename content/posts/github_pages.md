@@ -86,7 +86,10 @@ The developers of Hugo of course have a nice [guide for setting up the Github Ac
 
 With this setup, the website should be built to the branch `gh-pages` and deployed automatically from there every time you push changes to your repository. If your website fails to update, it makes sense to check the Actions tab of your repository at GitHub. Red lights indicate something is going wrong and you should probably have a deep dive to debug the issue.
 
-
 ## Conclusion
 
-That's all folks! Hopefully I did not at least confuse anyone more with my ramblings. Let's see where I end up going with this website or if it will end up at the graveyard with all those other cute hobby projects.
+That's all folks! 
+
+With this setup, I can write write stuff with Markdown for the website, push it to the remote repository, and the stuff is magically appearing on the website. Oh what a world we live in.
+
+Hopefully I did not at least confuse anyone more with my ramblings. Let's see where I end up going with this website or if it will end up at the graveyard with all those other cute hobby projects.
