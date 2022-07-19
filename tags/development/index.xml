@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Paavo Niskala</title>
-    <link>https://pniskala.github.io/</link>
-    <description>Recent content on Paavo Niskala</description>
+    <title>development on Paavo Niskala</title>
+    <link>https://pniskala.github.io/tags/development/</link>
+    <description>Recent content in development on Paavo Niskala</description>
     <image>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jul 2022 21:43:09 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jul 2022 21:43:09 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning by setting up a website with Hugo and GitHub Pages</title>
       <link>https://pniskala.github.io/posts/github_pages/</link>
@@ -19,17 +19,6 @@
       <description>I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!
 Somewhat irrelevant background information I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?
 Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
-    </item>
-    
-    <item>
-      <title>Hello world</title>
-      <link>https://pniskala.github.io/posts/first_post/</link>
-      <pubDate>Sun, 17 Jul 2022 21:36:48 +0300</pubDate>
-      
-      <guid>https://pniskala.github.io/posts/first_post/</guid>
-      <description>Hello, is it me you are looking for?
-Maybe not, but you are still here.
-Pardon our dust, this is still under construction.</description>
     </item>
     
   </channel>
