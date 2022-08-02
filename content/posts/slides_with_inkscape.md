@@ -2,6 +2,13 @@
 title: "Can you make slides with Inkscape? Yes you can!"
 date: 2022-08-02T11:15:45+03:00
 draft: false
+categories:
+- Development
+- Presentations
+tags:
+- development
+- presentations
+- python
 ---
 
 *This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!*
