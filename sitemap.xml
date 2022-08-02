@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pniskala.github.io/posts/slides_with_inkscape/</loc>
+    <lastmod>2022-08-02T11:15:45+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/</loc>
+    <lastmod>2022-08-02T11:15:45+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/posts/</loc>
+    <lastmod>2022-08-02T11:15:45+03:00</lastmod>
+  </url><url>
     <loc>https://pniskala.github.io/categories/</loc>
     <lastmod>2022-07-18T21:43:09+03:00</lastmod>
   </url><url>
@@ -18,12 +27,6 @@
     <lastmod>2022-07-18T21:43:09+03:00</lastmod>
   </url><url>
     <loc>https://pniskala.github.io/posts/github_pages/</loc>
-    <lastmod>2022-07-18T21:43:09+03:00</lastmod>
-  </url><url>
-    <loc>https://pniskala.github.io/</loc>
-    <lastmod>2022-07-18T21:43:09+03:00</lastmod>
-  </url><url>
-    <loc>https://pniskala.github.io/posts/</loc>
     <lastmod>2022-07-18T21:43:09+03:00</lastmod>
   </url><url>
     <loc>https://pniskala.github.io/tags/</loc>

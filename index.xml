@@ -9,9 +9,19 @@
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jul 2022 21:43:09 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Learning by setting up a website with Hugo and GitHub Pages</title>
+      <title>Can you make slides with Inkscape? Yes you can!</title>
+      <link>https://pniskala.github.io/posts/slides_with_inkscape/</link>
+      <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
+      
+      <guid>https://pniskala.github.io/posts/slides_with_inkscape/</guid>
+      <description>This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!
+Besides death and taxes, there is another thing that is pretty sure in life: you will have to present stuff. This is especially true in the academic world.</description>
+    </item>
+    
+    <item>
+      <title>Learning by doing: Setting up a website with Hugo and GitHub Pages</title>
       <link>https://pniskala.github.io/posts/github_pages/</link>
       <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
       
