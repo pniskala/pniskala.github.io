@@ -1,5 +1,5 @@
 ---
-title: "Learning by setting up a website with Hugo and GitHub Pages"
+title: "Learning by doing: Setting up a website with Hugo and GitHub Pages"
 date: 2022-07-18T21:43:09+03:00
 draft: false
 categories:
