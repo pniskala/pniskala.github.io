@@ -9,13 +9,22 @@
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jul 2022 21:43:09 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
       <link>https://pniskala.github.io/categories/development/</link>
-      <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
+      <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
       
       <guid>https://pniskala.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://pniskala.github.io/categories/presentations/</link>
+      <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
+      
+      <guid>https://pniskala.github.io/categories/presentations/</guid>
       <description></description>
     </item>
     
