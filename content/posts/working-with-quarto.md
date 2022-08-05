@@ -23,7 +23,7 @@ As a practical example I decided to try Quarto out by creating a very quick data
 
 [This blog post about cars in Finland]() was actually created using a [Jupyter Notebook](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.suptitle.html). Here I will share some of my experiences.
 
-## What I learned
+## Quick takeaways from my test run with Hugo and Quarto
 
 ### 1. Quarto is easy to get started with
 
