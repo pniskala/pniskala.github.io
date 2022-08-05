@@ -1,6 +1,6 @@
 ---
 title: "Working with Quarto and Hugo"
-date: 2022-08-08T20:01:47+03:00
+date: 2022-08-06T12:01:47+03:00
 draft: false
 tags:
 - development
