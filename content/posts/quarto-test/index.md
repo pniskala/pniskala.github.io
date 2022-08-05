@@ -1,6 +1,6 @@
 ---
 title: What kind of cars do Finns drive?
-date: "2021-08-05"
+date: "2022-08-05"
 tags:
  - development
  - communication
