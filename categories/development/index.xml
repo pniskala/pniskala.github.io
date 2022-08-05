@@ -31,5 +31,17 @@ Somewhat irrelevant background information I have tried a variety of blogging pl
 Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
     </item>
     
+    <item>
+      <title>What kind of cars do Finns drive?</title>
+      <link>https://pniskala.github.io/posts/quarto-test/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/posts/quarto-test/</guid>
+      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
+Maybe we can learn something about the cars people drive in Finland?
+Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
+import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
+    </item>
+    
   </channel>
 </rss>

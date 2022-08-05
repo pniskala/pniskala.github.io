@@ -37,5 +37,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Communication</title>
+      <link>https://pniskala.github.io/categories/communication/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/categories/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://pniskala.github.io/categories/data/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/categories/data/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
