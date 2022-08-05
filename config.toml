@@ -13,8 +13,10 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
 pygmentsUseClasses = true
+
+# Ingore stuff for Quarto
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$" ]
 
 [minify]
 disableXML = true
@@ -137,4 +139,6 @@ weight = 10
 [markup.highlight]
 noClasses = false
 
-  
+# Allow raw HTML to support e.g. Quarto
+[markup.goldmark.renderer]
+unsafe = true
