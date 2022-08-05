@@ -9,11 +9,29 @@
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pniskala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>communication</title>
+      <link>https://pniskala.github.io/tags/communication/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://pniskala.github.io/tags/data/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>development</title>
       <link>https://pniskala.github.io/tags/development/</link>
-      <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pniskala.github.io/tags/development/</guid>
       <description></description>
@@ -61,24 +79,6 @@
       <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
       
       <guid>https://pniskala.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>communication</title>
-      <link>https://pniskala.github.io/tags/communication/</link>
-      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pniskala.github.io/tags/communication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data</title>
-      <link>https://pniskala.github.io/tags/data/</link>
-      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pniskala.github.io/tags/data/</guid>
       <description></description>
     </item>
     

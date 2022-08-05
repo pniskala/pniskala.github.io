@@ -9,7 +9,19 @@
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pniskala.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What kind of cars do Finns drive?</title>
+      <link>https://pniskala.github.io/posts/quarto-test/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pniskala.github.io/posts/quarto-test/</guid>
+      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
+Maybe we can learn something about the cars people drive in Finland?
+Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
+import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
+    </item>
+    
     <item>
       <title>Can you make slides with Inkscape? Yes you can!</title>
       <link>https://pniskala.github.io/posts/slides_with_inkscape/</link>
@@ -29,18 +41,6 @@ Besides death and taxes, there is another thing that is pretty sure in life: you
       <description>I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!
 Somewhat irrelevant background information I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?
 Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
-    </item>
-    
-    <item>
-      <title>What kind of cars do Finns drive?</title>
-      <link>https://pniskala.github.io/posts/quarto-test/</link>
-      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pniskala.github.io/posts/quarto-test/</guid>
-      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
-Maybe we can learn something about the cars people drive in Finland?
-Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
     </item>
     
   </channel>
