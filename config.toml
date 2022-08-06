@@ -69,9 +69,9 @@ tocopen = false
   imageHeight = 160
   imageTitle = "That's Paavo."
 
-    # [[params.profileMode.buttons]]
-    # name = "Posts"
-    # url = "posts/"
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts/"
 
     # [[params.profileMode.buttons]]
     # name = "Tags"
