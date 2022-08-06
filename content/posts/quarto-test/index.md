@@ -478,18 +478,17 @@ brands_to_include = [
 ]
 
 # Filter in only the data we want
-df_top_9 = (
+df_pivot = (
     df
-    .query('merkkiSelvakielinen == @brands_to_include')
     .query('first_day_of_use > "2009-12-31"')
     .query('first_day_of_use < "2022-01-01"') # Include only full years
 )
 
 # Groupby, aggregate count of rows, and pivot
-df_top_9 = (
-    df_top_9
+df_pivot = (
+    df_pivot
     .groupby(
-        [df_top_9.first_day_of_use.dt.year, df_top_9.merkkiSelvakielinen],
+        [df_pivot.first_day_of_use.dt.year, df_pivot.merkkiSelvakielinen],
         as_index=True)['ajoneuvoluokka']
     .count()
     .reset_index()
@@ -501,13 +500,13 @@ df_top_9 = (
 )
 
 # Normalize monthly values
-df_top_9 = df_top_9.divide(df_top_9.sum(axis=1), axis=0)
+df_pivot = df_pivot.divide(df_pivot.sum(axis=1), axis=0)
 
 # Plot small multiples
 fig, ax = plt.subplots(3, 3, figsize=(15, 7), sharex=True, sharey=True)
-for ix, col in enumerate(df_top_9.columns):
+for ix, col in enumerate(brands_to_include):
     plt.subplot(3, 3, ix+1)
-    df_top_9[col].plot(color='k', linewidth=1.5)
+    df_pivot[col].plot(color='k', linewidth=1.5)
     plt.title(col, loc='left')
 
 _ = plt.suptitle('Finnish market share by car brand')
