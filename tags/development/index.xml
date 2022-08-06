@@ -9,7 +9,18 @@
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pniskala.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Quarto and Hugo</title>
+      <link>https://pniskala.github.io/posts/working-with-quarto/</link>
+      <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
+      
+      <guid>https://pniskala.github.io/posts/working-with-quarto/</guid>
+      <description>Quick intro to Quarto While exploring the offerings of Fast.ai, I got introduced to Quarto, a handy-looking open-source publishing system.
+In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.
+As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has a nice integration with Hugo.</description>
+    </item>
+    
     <item>
       <title>What kind of cars do Finns drive?</title>
       <link>https://pniskala.github.io/posts/quarto-test/</link>

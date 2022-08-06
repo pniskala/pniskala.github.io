@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Communication on Paavo Niskala</title>
-    <link>https://pniskala.github.io/categories/communication/</link>
-    <description>Recent content in Communication on Paavo Niskala</description>
+    <title>communcation on Paavo Niskala</title>
+    <link>https://pniskala.github.io/tags/communcation/</link>
+    <description>Recent content in communcation on Paavo Niskala</description>
     <image>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/categories/communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/communcation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with Quarto and Hugo</title>
       <link>https://pniskala.github.io/posts/working-with-quarto/</link>
@@ -19,18 +19,6 @@
       <description>Quick intro to Quarto While exploring the offerings of Fast.ai, I got introduced to Quarto, a handy-looking open-source publishing system.
 In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.
 As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has a nice integration with Hugo.</description>
-    </item>
-    
-    <item>
-      <title>What kind of cars do Finns drive?</title>
-      <link>https://pniskala.github.io/posts/quarto-test/</link>
-      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://pniskala.github.io/posts/quarto-test/</guid>
-      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
-Maybe we can learn something about the cars people drive in Finland?
-Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
     </item>
     
   </channel>
