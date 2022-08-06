@@ -504,10 +504,21 @@ df_pivot = df_pivot.divide(df_pivot.sum(axis=1), axis=0)
 
 # Plot small multiples
 fig, ax = plt.subplots(3, 3, figsize=(15, 7), sharex=True, sharey=True)
-for ix, col in enumerate(brands_to_include):
-    plt.subplot(3, 3, ix+1)
-    df_pivot[col].plot(color='k', linewidth=1.5)
-    plt.title(col, loc='left')
+for ix, brand in enumerate(brands_to_include):
+    row = int(ix / 3)
+    col = ix % 3
+    
+    # Plot all brands on every subplot with grey on the background
+    for b in brands_to_include:
+            df_pivot[b].plot(
+                color='k',
+                linewidth=1.5,
+                alpha=0.2,
+                ax=ax[row, col])
+    
+    # Plot the actual brand with black
+    df_pivot[brand].plot(color='k', linewidth=1.5, ax=ax[row, col])
+    ax[row, col].set_title(brand, loc='left')
 
 _ = plt.suptitle('Finnish market share by car brand')
 ```
