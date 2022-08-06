@@ -41,7 +41,7 @@ As mentioned earlier, Quarto supports a wide variety of different formats. Origi
 
 I was ambitious and wanted to try out [Altair](https://altair-viz.github.io) while testing Quarto. Altair is a visualization library for Python, complementary to e.g. Plotly, Matplotlib, and Seaborn. It seems to provide nice interactive figures with a small amount of code. Unfortunately I did not manage to get Quarto, Hugo, and Altair co-operating as the website would not build with Altair visualizations included. Not a deal-breaker but it could also be just a user error.
 
-### 5. The Hugo format does not support all fancy features
+### 5. The Hugo format does not support all of the fancy features
 
 Quarto has some nice configuration options but not every knob applies to every format. I have to admit I did not really play around with the Hugo specific config arguments that much but I did notice that for example the code-folding parameter did not work for the Hugo format. For HTML outputs, you can use it to make your code snippets collapsible. Even though Quarto seems easy to get started with, it will definitely take some time to really master all the parameters and possibilities.
 
