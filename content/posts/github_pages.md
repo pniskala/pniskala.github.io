@@ -86,6 +86,8 @@ The developers of Hugo of course have a nice [guide for setting up the Github Ac
 
 With this setup, the website should be built to the branch `gh-pages` and deployed automatically from there every time you push changes to your repository. If your website fails to update, it makes sense to check the Actions tab of your repository at GitHub. Red lights indicate something is going wrong and you should probably have a deep dive to debug the issue.
 
+*Update 2022-08-07: GitHub Pages just launched a new feature that makes publishing your website easier with a variety of frameworks, including Hugo. Check it out [here](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/).*
+
 ## Conclusion
 
 That's all folks! 
