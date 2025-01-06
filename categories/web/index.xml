@@ -5,32 +5,33 @@
     <link>https://pniskala.github.io/categories/web/</link>
     <description>Recent content in Web on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with Quarto and Hugo</title>
       <link>https://pniskala.github.io/posts/working-with-quarto/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/working-with-quarto/</guid>
-      <description>Quick intro to Quarto While exploring the offerings of Fast.ai, I got introduced to Quarto, a handy-looking open-source publishing system.
-In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.
-As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has a nice integration with Hugo.</description>
+      <description>&lt;h2 id=&#34;quick-intro-to-quarto&#34;&gt;Quick intro to Quarto&lt;/h2&gt;
+&lt;p&gt;While exploring the offerings of &lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;, I got introduced to &lt;a href=&#34;https://quarto.org/&#34;&gt;Quarto&lt;/a&gt;, a handy-looking open-source publishing system.&lt;/p&gt;
+&lt;p&gt;In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.&lt;/p&gt;
+&lt;p&gt;As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has &lt;a href=&#34;https://quarto.org/docs/output-formats/hugo.html&#34;&gt;a nice integration with Hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning by doing: Setting up a website with Hugo and GitHub Pages</title>
       <link>https://pniskala.github.io/posts/github_pages/</link>
       <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/github_pages/</guid>
-      <description>I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!
-Somewhat irrelevant background information I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?
-Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
+      <description>&lt;p&gt;I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!&lt;/p&gt;
+&lt;h2 id=&#34;somewhat-irrelevant-background-information&#34;&gt;Somewhat irrelevant background information&lt;/h2&gt;
+&lt;p&gt;I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?&lt;/p&gt;
+&lt;p&gt;Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages. I did play around with e.g Bootstrap and investigated hosting with AWS S3 but then again the sweet combination of Hugo and GitHub sounded too easy and cost effective (FREE!) to pass up.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

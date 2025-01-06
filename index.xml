@@ -5,54 +5,72 @@
     <link>https://pniskala.github.io/</link>
     <description>Recent content on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jan 2025 12:01:47 +0300</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta releases a new open source Python library to help digital marketers</title>
+      <link>https://pniskala.github.io/posts/ltvision-release/</link>
+      <pubDate>Mon, 06 Jan 2025 12:01:47 +0300</pubDate>
+      <guid>https://pniskala.github.io/posts/ltvision-release/</guid>
+      <description>&lt;p&gt;In case you missed this: Meta just released a new open source library called &lt;a href=&#34;https://github.com/facebookincubator/LTVision&#34;&gt;LTVision&lt;/a&gt; that should help advertisers in analysing the potential pLTV opportunity in advertising and user acquisition.&lt;/p&gt;
+&lt;p&gt;In this context, pLTV stands for predicted lifetime value of customers or users of services, apps, games, eCommerce and such. For example Meta could optimise marketing campaigns towards users with high predicted lifetime value instead of e.g. installs, first purchase value or cumulative revenue until the 7th day (D7 revenue).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Working with Quarto and Hugo</title>
       <link>https://pniskala.github.io/posts/working-with-quarto/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/working-with-quarto/</guid>
-      <description>Quick intro to Quarto While exploring the offerings of Fast.ai, I got introduced to Quarto, a handy-looking open-source publishing system.
-In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.
-As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has a nice integration with Hugo.</description>
+      <description>&lt;h2 id=&#34;quick-intro-to-quarto&#34;&gt;Quick intro to Quarto&lt;/h2&gt;
+&lt;p&gt;While exploring the offerings of &lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;, I got introduced to &lt;a href=&#34;https://quarto.org/&#34;&gt;Quarto&lt;/a&gt;, a handy-looking open-source publishing system.&lt;/p&gt;
+&lt;p&gt;In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.&lt;/p&gt;
+&lt;p&gt;As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has &lt;a href=&#34;https://quarto.org/docs/output-formats/hugo.html&#34;&gt;a nice integration with Hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>What kind of cars do Finns drive?</title>
       <link>https://pniskala.github.io/posts/quarto-test/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pniskala.github.io/posts/quarto-test/</guid>
-      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
-Maybe we can learn something about the cars people drive in Finland?
-Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
+      <description>&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js&#34; integrity=&#34;sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js&#34; integrity=&#34;sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;application/javascript&#34;&gt;define(&#39;jquery&#39;, [],function() {return window.jQuery;})&lt;/script&gt;
+&lt;h3 id=&#34;cars-in-finland&#34;&gt;Cars in Finland&lt;/h3&gt;
+&lt;p&gt;The Finnish Transport and Communications Agency &lt;a href=&#34;https://www.traficom.fi/en/&#34;&gt;Traficom&lt;/a&gt; shares some open datasets on their website. Here we are going to be looking at &lt;a href=&#34;https://www.traficom.fi/en/news/open-data?toggle=Open%20data%20for%20vehicles&#34;&gt;open data for vehicles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Maybe we can learn something about the cars people drive in Finland?&lt;/p&gt;
+&lt;h3 id=&#34;start-with-the-mandatory-imports&#34;&gt;Start with the mandatory imports&lt;/h3&gt;
+&lt;p&gt;I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;seaborn&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sns&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;darkgrid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;notebook&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;load-the-data&#34;&gt;Load the data&lt;/h3&gt;
+&lt;p&gt;At the moment of writing, the latest vehicles dataset is a CSV file of 981 MB (200 MB when compressed to a ZIP file). It was published 2022-06-21, just in time for Juhannus!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Can you make slides with Inkscape? Yes you can!</title>
       <link>https://pniskala.github.io/posts/slides_with_inkscape/</link>
       <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/slides_with_inkscape/</guid>
-      <description>This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!
-Besides death and taxes, there is another thing that is pretty sure in life: you will have to present stuff. This is especially true in the academic world.</description>
+      <description>&lt;p&gt;&lt;em&gt;This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Besides death and taxes, there is another thing that is pretty sure in life: you will have to present stuff. This is especially true in the academic world. Since the beginning of my PhD project, I was struggling to find a good tool for preparing the presentations. There were some boundary conditions: I would prefer to prepare them on my Linux computer, have the output in PDF, and make it look nice. I tried Open Office (or Libre Office), Latex and Prezi amongst other things, but about a year ago I found my true match, and that is Inkscape.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning by doing: Setting up a website with Hugo and GitHub Pages</title>
       <link>https://pniskala.github.io/posts/github_pages/</link>
       <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/github_pages/</guid>
-      <description>I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!
-Somewhat irrelevant background information I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?
-Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages.</description>
+      <description>&lt;p&gt;I just set up this website with GitHub Pages and Hugo so why not share that experience on that very website? It only makes sense!&lt;/p&gt;
+&lt;h2 id=&#34;somewhat-irrelevant-background-information&#34;&gt;Somewhat irrelevant background information&lt;/h2&gt;
+&lt;p&gt;I have tried a variety of blogging platforms (e.g. Wordpress) in the past but I never got around to creating or hosting a website myself. Doing something like that sounded interesting for learning purposes, so why not try it out?&lt;/p&gt;
+&lt;p&gt;Well, to be honest, I am not really &amp;ldquo;creating&amp;rdquo; the website myself now either because I ended up using Hugo, nor am I actually hosting it myself as I opted for using GitHub Pages. I did play around with e.g Bootstrap and investigated hosting with AWS S3 but then again the sweet combination of Hugo and GitHub sounded too easy and cost effective (FREE!) to pass up.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

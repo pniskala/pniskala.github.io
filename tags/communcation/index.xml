@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>communcation on Paavo Niskala</title>
+    <title>Communcation on Paavo Niskala</title>
     <link>https://pniskala.github.io/tags/communcation/</link>
-    <description>Recent content in communcation on Paavo Niskala</description>
+    <description>Recent content in Communcation on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/communcation/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/tags/communcation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with Quarto and Hugo</title>
       <link>https://pniskala.github.io/posts/working-with-quarto/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/working-with-quarto/</guid>
-      <description>Quick intro to Quarto While exploring the offerings of Fast.ai, I got introduced to Quarto, a handy-looking open-source publishing system.
-In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.
-As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has a nice integration with Hugo.</description>
+      <description>&lt;h2 id=&#34;quick-intro-to-quarto&#34;&gt;Quick intro to Quarto&lt;/h2&gt;
+&lt;p&gt;While exploring the offerings of &lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;, I got introduced to &lt;a href=&#34;https://quarto.org/&#34;&gt;Quarto&lt;/a&gt;, a handy-looking open-source publishing system.&lt;/p&gt;
+&lt;p&gt;In practice, Quarto allows publishing your work – were it code, data analysis, or just plain markdown text – in a variety of formats including PowerPoint, HTML, and so on.&lt;/p&gt;
+&lt;p&gt;As a practical example I decided to try Quarto out by creating a very quick data exploration notebook as the system has &lt;a href=&#34;https://quarto.org/docs/output-formats/hugo.html&#34;&gt;a nice integration with Hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

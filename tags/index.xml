@@ -5,91 +5,97 @@
     <link>https://pniskala.github.io/tags/</link>
     <description>Recent content in Tags on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 12:01:47 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jan 2025 12:01:47 +0300</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>communcation</title>
+      <title>Data Science</title>
+      <link>https://pniskala.github.io/tags/data-science/</link>
+      <pubDate>Mon, 06 Jan 2025 12:01:47 +0300</pubDate>
+      <guid>https://pniskala.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketing</title>
+      <link>https://pniskala.github.io/tags/marketing/</link>
+      <pubDate>Mon, 06 Jan 2025 12:01:47 +0300</pubDate>
+      <guid>https://pniskala.github.io/tags/marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>https://pniskala.github.io/tags/open-source/</link>
+      <pubDate>Mon, 06 Jan 2025 12:01:47 +0300</pubDate>
+      <guid>https://pniskala.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communcation</title>
       <link>https://pniskala.github.io/tags/communcation/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/communcation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://pniskala.github.io/tags/development/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://pniskala.github.io/tags/hugo/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web</title>
+      <title>Web</title>
       <link>https://pniskala.github.io/tags/web/</link>
       <pubDate>Sat, 06 Aug 2022 12:01:47 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>communication</title>
+      <title>Communication</title>
       <link>https://pniskala.github.io/tags/communication/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pniskala.github.io/tags/communication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data</title>
+      <title>Data</title>
       <link>https://pniskala.github.io/tags/data/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pniskala.github.io/tags/data/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>presentations</title>
+      <title>Presentations</title>
       <link>https://pniskala.github.io/tags/presentations/</link>
       <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/presentations/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://pniskala.github.io/tags/python/</link>
       <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>https://pniskala.github.io/tags/github/</link>
       <pubDate>Mon, 18 Jul 2022 21:43:09 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/tags/github/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

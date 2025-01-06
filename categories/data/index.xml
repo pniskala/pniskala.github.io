@@ -5,22 +5,36 @@
     <link>https://pniskala.github.io/categories/data/</link>
     <description>Recent content in Data on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pniskala.github.io/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/categories/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What kind of cars do Finns drive?</title>
       <link>https://pniskala.github.io/posts/quarto-test/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pniskala.github.io/posts/quarto-test/</guid>
-      <description>Cars in Finland The Finnish Transport and Communications Agency Traficom shares some open datasets on their website. Here we are going to be looking at open data for vehicles.
-Maybe we can learn something about the cars people drive in Finland?
-Start with the mandatory imports I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns sns.</description>
+      <description>&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js&#34; integrity=&#34;sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js&#34; integrity=&#34;sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;application/javascript&#34;&gt;define(&#39;jquery&#39;, [],function() {return window.jQuery;})&lt;/script&gt;
+&lt;h3 id=&#34;cars-in-finland&#34;&gt;Cars in Finland&lt;/h3&gt;
+&lt;p&gt;The Finnish Transport and Communications Agency &lt;a href=&#34;https://www.traficom.fi/en/&#34;&gt;Traficom&lt;/a&gt; shares some open datasets on their website. Here we are going to be looking at &lt;a href=&#34;https://www.traficom.fi/en/news/open-data?toggle=Open%20data%20for%20vehicles&#34;&gt;open data for vehicles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Maybe we can learn something about the cars people drive in Finland?&lt;/p&gt;
+&lt;h3 id=&#34;start-with-the-mandatory-imports&#34;&gt;Start with the mandatory imports&lt;/h3&gt;
+&lt;p&gt;I will be using Pandas for processing the data and Seaborn-Matplotlib combo for any visualizations.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;seaborn&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sns&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;darkgrid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;notebook&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;load-the-data&#34;&gt;Load the data&lt;/h3&gt;
+&lt;p&gt;At the moment of writing, the latest vehicles dataset is a CSV file of 981 MB (200 MB when compressed to a ZIP file). It was published 2022-06-21, just in time for Juhannus!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

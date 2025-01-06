@@ -5,20 +5,21 @@
     <link>https://pniskala.github.io/categories/presentations/</link>
     <description>Recent content in Presentations on Paavo Niskala</description>
     <image>
+      <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate><atom:link href="https://pniskala.github.io/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Aug 2022 11:15:45 +0300</lastBuildDate>
+    <atom:link href="https://pniskala.github.io/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can you make slides with Inkscape? Yes you can!</title>
       <link>https://pniskala.github.io/posts/slides_with_inkscape/</link>
       <pubDate>Tue, 02 Aug 2022 11:15:45 +0300</pubDate>
-      
       <guid>https://pniskala.github.io/posts/slides_with_inkscape/</guid>
-      <description>This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!
-Besides death and taxes, there is another thing that is pretty sure in life: you will have to present stuff. This is especially true in the academic world.</description>
+      <description>&lt;p&gt;&lt;em&gt;This is a blog post I made on my old blog back in 2016. To be completely honest, I am not using Inkscape to make presentations anymore, mostly because I did not like using the app on a Mac in the first place. Nevertheless, maybe somebody still finds this interesting!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Besides death and taxes, there is another thing that is pretty sure in life: you will have to present stuff. This is especially true in the academic world. Since the beginning of my PhD project, I was struggling to find a good tool for preparing the presentations. There were some boundary conditions: I would prefer to prepare them on my Linux computer, have the output in PDF, and make it look nice. I tried Open Office (or Libre Office), Latex and Prezi amongst other things, but about a year ago I found my true match, and that is Inkscape.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
