@@ -91,7 +91,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/pniskala"
 
   [params.cover]
   hidden = false
