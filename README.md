@@ -1,2 +1,2 @@
 # pniskala.github.io
-Homepage
+Homepage of Paavo Niskala. Powered by GitHub Pages & Hugo.
