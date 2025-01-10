@@ -18,7 +18,8 @@
       <link>https://pniskala.github.io/posts/robynpy-release/</link>
       <pubDate>Fri, 10 Jan 2025 14:15:47 +0300</pubDate>
       <guid>https://pniskala.github.io/posts/robynpy-release/</guid>
-      <description>&lt;p&gt;Meta has &lt;a href=&#34;https://developers.facebook.com/blog/post/2024/12/19/announcing-the-python-version-of-project-robyn&#34;&gt;officially released&lt;/a&gt; the Python version of its open source Marketing Mix Modelling (MMM) library Robyn – finally, may I say!&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://pniskala.github.io/images/robyn_github.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Meta has &lt;a href=&#34;https://developers.facebook.com/blog/post/2024/12/19/announcing-the-python-version-of-project-robyn&#34;&gt;officially released&lt;/a&gt; the Python version of its open source Marketing Mix Modelling (MMM) library Robyn – finally, may I say!&lt;/p&gt;
 &lt;p&gt;Robyn was originally developed in R and released in 2021. I think it was also around 2021 or 2022 when I tried it out the first time, and the project has definitely progressed since then.&lt;/p&gt;
 &lt;p&gt;Marketing Mix Modelling is a statistical method for estimating the incremental impact of marketing. It has gained some traction in recent years mainly due to privacy trends that have raised questions about the feasibility of digital attribution. It also helps in estimating&lt;/p&gt;</description>
     </item>
