@@ -31,4 +31,4 @@ According to Meta, the conversion from R to Python has heavily utilized Large La
 
 I have not dug deep enough into the code to compare the R and Python code and to deduce how much human touch has been involved in the translation. However, I did receive a comment on Linkedin saying that Python version could barely be called a "library", given the effort put into the translation.
 
-The repository for the project can be found [here](https://github.com/pniskala/Robyn).
+The repository for the project can be found [here](https://github.com/facebookexperimental/Robyn).
