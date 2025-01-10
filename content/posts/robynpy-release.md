@@ -11,6 +11,8 @@ categories:
 - Data science
 ---
 
+![image](/images/robyn_github.png)
+
 Meta has [officially released](https://developers.facebook.com/blog/post/2024/12/19/announcing-the-python-version-of-project-robyn) the Python version of its open source Marketing Mix Modelling (MMM) library Robyn – finally, may I say!
 
 Robyn was originally developed in R and released in 2021. I think it was also around 2021 or 2022 when I tried it out the first time, and the project has definitely progressed since then.
