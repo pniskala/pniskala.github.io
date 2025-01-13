@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pniskala.github.io/tags/books/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/categories/books/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
     <loc>https://pniskala.github.io/categories/</loc>
-    <lastmod>2025-01-10T14:15:47+03:00</lastmod>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/posts/ekirjasto/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/posts/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://pniskala.github.io/tags/</loc>
+    <lastmod>2025-01-13T19:12:47+03:00</lastmod>
   </url><url>
     <loc>https://pniskala.github.io/tags/data-science/</loc>
     <lastmod>2025-01-10T14:15:47+03:00</lastmod>
@@ -21,15 +39,6 @@
     <lastmod>2025-01-10T14:15:47+03:00</lastmod>
   </url><url>
     <loc>https://pniskala.github.io/tags/open-source/</loc>
-    <lastmod>2025-01-10T14:15:47+03:00</lastmod>
-  </url><url>
-    <loc>https://pniskala.github.io/</loc>
-    <lastmod>2025-01-10T14:15:47+03:00</lastmod>
-  </url><url>
-    <loc>https://pniskala.github.io/posts/</loc>
-    <lastmod>2025-01-10T14:15:47+03:00</lastmod>
-  </url><url>
-    <loc>https://pniskala.github.io/tags/</loc>
     <lastmod>2025-01-10T14:15:47+03:00</lastmod>
   </url><url>
     <loc>https://pniskala.github.io/posts/ltvision-release/</loc>
