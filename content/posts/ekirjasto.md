@@ -12,7 +12,7 @@ The New Year brought some unfortunate news for book readers in the Helsinki capi
 
 The same goes for audiobooks: you have to use E-library instead of Libby. Some audiobooks are also available through Naxos Spoken Word Library.
 
-This is a consequence of Helsinki Metropolitan Area Libraries joining the joint E-library service of Finnish munincipalities. In the transition, they dropped support for Ellibs and OverDrive as of January 1st 2025.
+This is a consequence of Helsinki Metropolitan Area Libraries joining the joint E-library service of Finnish municipalities. In the transition, they dropped support for Ellibs and OverDrive as of January 1st 2025.
 
 The E-library application has some limitations for both ebooks and audiobooks. The search and filtering functionalities seem limited, and so does the selection of books in English. 
 
