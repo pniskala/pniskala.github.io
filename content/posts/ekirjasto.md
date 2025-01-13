@@ -18,4 +18,4 @@ The E-library application has some limitations for both ebooks and audiobooks. T
 
 For avid ebook readers, lack of support for transferring books to e.g. Kobo readers is definitely a big turn-off. I used to use this feature a lot. I understand the joint service has some benefits, but they might be lost on me because of this change.
 
-Similarly did use Libby for audiobooks a lot when I was on parental leave but I have since migrated to the commercial services.
+Similarly, I did use Libby for audiobooks a lot when I was on parental leave but I have since migrated to the commercial services.
