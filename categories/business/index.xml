@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Books on Paavo Niskala</title>
-    <link>https://pniskala.github.io/categories/books/</link>
-    <description>Recent content in Books on Paavo Niskala</description>
+    <title>Business on Paavo Niskala</title>
+    <link>https://pniskala.github.io/categories/business/</link>
+    <description>Recent content in Business on Paavo Niskala</description>
     <image>
       <title>Paavo Niskala</title>
       <url>https://pniskala.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 15 Jan 2025 09:09:27 +0300</lastBuildDate>
-    <atom:link href="https://pniskala.github.io/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pniskala.github.io/categories/business/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Up down up: Why some game companies succeed, while others fail</title>
       <link>https://pniskala.github.io/posts/up-down-up/</link>
@@ -21,15 +21,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://www.updownupbook.com/&#34;&gt;Up down up&lt;/a&gt; is a games business book by Kim Nordström. The official website advertises the book as follows:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ever wonder why some game companies succeed while others fail? This book explains why. Games industry veteran Kim Nordström spent two years talking to more than 100 of the industry&amp;rsquo;s most experienced founders and CEOs, about lessons learned and wisdom gained from their biggest wins and most disastrous failures. This book tells you what you need to know about success - and failure - in video games.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>No more ebooks from public libraries in Helsinki</title>
-      <link>https://pniskala.github.io/posts/ekirjasto/</link>
-      <pubDate>Mon, 13 Jan 2025 19:12:47 +0300</pubDate>
-      <guid>https://pniskala.github.io/posts/ekirjasto/</guid>
-      <description>&lt;p&gt;The New Year brought some unfortunate news for book readers in the Helsinki capital region: You cannot loan ebooks at Helmet libraries and read them on your ereader anymore. Instead, you need to use the new E-library app.&lt;/p&gt;
-&lt;p&gt;The same goes for audiobooks: you have to use E-library instead of Libby. Some audiobooks are also available through Naxos Spoken Word Library.&lt;/p&gt;
-&lt;p&gt;This is a consequence of Helsinki Metropolitan Area Libraries joining the joint E-library service of Finnish municipalities. In the transition, they dropped support for Ellibs and OverDrive as of January 1st 2025.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
