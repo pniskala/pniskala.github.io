@@ -18,7 +18,7 @@ categories:
 
 ### My take on Up down up
 
-To be completely honest, I had no idea who Kim Nordström is when first saw the book but that is more of an offense towards myself than him. Kim has an impressive resume having worked at key roles in companies such as King and Paradox Interactive.
+To be completely honest, I had no idea who Kim Nordström was when first saw the book but that is more of an offense towards myself than him. Kim has an impressive resume having worked at key roles in companies such as King and Paradox Interactive.
 
 Up down up combines general business wisdom from books such as Good to great and industry insights from Kim's own experiences and extensive interviews with a long list of experienced leaders in gaming. These ingredients are applied to describing the fundamental building blocks of game studios and the different stages they go through in their lifespan. I feel the industry interviews and insights are biased towards the Nordics but that is natural given the scope of the book and Nordström's background.
 
