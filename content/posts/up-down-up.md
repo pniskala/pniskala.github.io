@@ -26,7 +26,7 @@ As a business book, Up down up is definitely directed towards industry professio
 
 I do not really fall into either of the categories but I still found it interesting to read what e.g. Ilkka Paananen of Supercell has to say about company culture. Definitely many of the learnings are generic enough that one could apply them to other industries as well – culture plays a big role in most successful companies, and concepts such as the magical pairs or the horizon model are not exclusive to games industry.
 
-The interviews and other industry insights are definitely the highlight of Up down up. There's lots of information in the book but the chapters are short enough and spruced with snippets from the interviews, making it a nice read. At the same time, the book does not go very deep into the any single topic.
+The interviews and other industry insights are definitely the highlight of Up down up. There's lots of information in the book but the chapters are short enough and spruced up with snippets from the interviews, making it a nice read. At the same time, the book does not go very deep into the any single topic or e.g. focus on a single company for longer.
 
 Like most business books, Up down up sprinkles some science here and there from the likes of Daniel Kahneman but that is not the main foundation of the book. It does list the people that have been interviewed but there's for example no list of books that have been used as the source material although some are mentioned clearly by name in the text.
 
